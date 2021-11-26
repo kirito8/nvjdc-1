@@ -21,8 +21,8 @@ jobs:
       uses: repo-sync/github-sync@v2
       with:
         source_repo: "https://github.com/NolanHzy/nvjdc"
-        source_branch: "master"
-        destination_branch: "main"
+        source_branch: "main"
+        destination_branch: "master"
         github_token: ${{ secrets.PAT }}
     - name: Delete Workflow Runs
       uses: Mattraks/delete-workflow-runs@main
